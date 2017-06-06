@@ -1,0 +1,25 @@
+<div class="section container">
+
+    <p><span ng-repeat="mes in mesDoAno"><button id="button_{{mes.numero}}" ng-click='acessaServicoLista(mes)'>{{mes.mes}}</button> | </span></p>
+
+    <h3  id="titulo">{{headingTitle}}</h3>
+    <table id="listaDeUsuarios" class="table table-hover">
+        <thead>
+        <tr>
+            <th ng-filter="">Nome</th>
+            <th style="background-color: aquamarine">Saldo Anterior</th>
+            <th style="background-color: coral" >TotalGeral</th>
+            <th>Acoes</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="consumidor in listaConsumo">
+            <td>{{consumidor.usuario}}</td>
+            <td>{{consumidor.valor}}</td>
+            <td>{{consumidor.valor}}</td>
+            <td>Alterar | Deletar</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>

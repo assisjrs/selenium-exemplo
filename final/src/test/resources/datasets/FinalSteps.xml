@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset schema="PUBLIC">
+    <transacao id="1" usuario="João" data="2017-03-21" valor="30.00" />
+    <transacao id="2" usuario="Maria" data="2017-02-21" valor="70.00" />
+    <transacao id="3" usuario="Francisco" data="2017-06-01" valor="10.00" />
+</dataset>
